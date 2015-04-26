@@ -6,7 +6,7 @@
 ## SET() and SETINV() utilizes a special operator '<<-' to re-assign value to variable inv_mat declared in a different environment
 
 makeCacheMatrix <- function(x = matrix()) {
-        
+
         ##initialize carrier variable for matrix inverse to NULL in primary environment. Note assignment operator "<-"
         inv_mat<-NULL
         
@@ -67,4 +67,5 @@ cacheSolve <- function(x, ...) {
         }
         
 }
+
 
